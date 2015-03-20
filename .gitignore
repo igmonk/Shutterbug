@@ -1,0 +1,8 @@
+# Mac files #
+.DS_store
+
+# Xcode build files #
+Shutterbug/build/
+Shutterbug.xcodeproj/xcuserdata/
+Shutterbug.xcodeproj/project.xcworkspace/xcuserdata/
+Shutterbug/Shutterbug.xcodeproj/xcuserdata/

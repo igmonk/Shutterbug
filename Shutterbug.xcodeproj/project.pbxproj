@@ -14,6 +14,7 @@
 		787690131ABC4BC000D7BFC1 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 787690121ABC4BC000D7BFC1 /* Images.xcassets */; };
 		787690161ABC4BC000D7BFC1 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 787690141ABC4BC000D7BFC1 /* LaunchScreen.xib */; };
 		787690221ABC4BC000D7BFC1 /* ShutterbugTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 787690211ABC4BC000D7BFC1 /* ShutterbugTests.m */; };
+		7876902D1ABC5DC200D7BFC1 /* FlickrPhotosTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7876902C1ABC5DC200D7BFC1 /* FlickrPhotosTableViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,8 @@
 		7876901B1ABC4BC000D7BFC1 /* ShutterbugTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ShutterbugTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		787690201ABC4BC000D7BFC1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		787690211ABC4BC000D7BFC1 /* ShutterbugTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ShutterbugTests.m; sourceTree = "<group>"; };
+		7876902B1ABC5DC200D7BFC1 /* FlickrPhotosTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FlickrPhotosTableViewController.h; sourceTree = "<group>"; };
+		7876902C1ABC5DC200D7BFC1 /* FlickrPhotosTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FlickrPhotosTableViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,11 +84,11 @@
 		787690041ABC4BC000D7BFC1 /* Shutterbug */ = {
 			isa = PBXGroup;
 			children = (
-				787690091ABC4BC000D7BFC1 /* AppDelegate.h */,
-				7876900A1ABC4BC000D7BFC1 /* AppDelegate.m */,
 				7876900C1ABC4BC000D7BFC1 /* ViewController.h */,
 				7876900D1ABC4BC000D7BFC1 /* ViewController.m */,
 				7876900F1ABC4BC000D7BFC1 /* Main.storyboard */,
+				7876902B1ABC5DC200D7BFC1 /* FlickrPhotosTableViewController.h */,
+				7876902C1ABC5DC200D7BFC1 /* FlickrPhotosTableViewController.m */,
 				787690121ABC4BC000D7BFC1 /* Images.xcassets */,
 				787690141ABC4BC000D7BFC1 /* LaunchScreen.xib */,
 				787690051ABC4BC000D7BFC1 /* Supporting Files */,
@@ -96,6 +99,8 @@
 		787690051ABC4BC000D7BFC1 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				787690091ABC4BC000D7BFC1 /* AppDelegate.h */,
+				7876900A1ABC4BC000D7BFC1 /* AppDelegate.m */,
 				787690061ABC4BC000D7BFC1 /* Info.plist */,
 				787690071ABC4BC000D7BFC1 /* main.m */,
 			);
@@ -220,6 +225,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				7876900E1ABC4BC000D7BFC1 /* ViewController.m in Sources */,
+				7876902D1ABC5DC200D7BFC1 /* FlickrPhotosTableViewController.m in Sources */,
 				7876900B1ABC4BC000D7BFC1 /* AppDelegate.m in Sources */,
 				787690081ABC4BC000D7BFC1 /* main.m in Sources */,
 			);
@@ -414,6 +420,7 @@
 				787690271ABC4BC000D7BFC1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		787690281ABC4BC000D7BFC1 /* Build configuration list for PBXNativeTarget "ShutterbugTests" */ = {
 			isa = XCConfigurationList;
@@ -422,6 +429,7 @@
 				7876902A1ABC4BC000D7BFC1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
