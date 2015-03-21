@@ -10,4 +10,6 @@
 
 @interface FlickrPhotosTableViewController : UITableViewController
 
+@property (strong, nonatomic) NSArray *photos; // of Flickr photo NSDictionary
+
 @end
